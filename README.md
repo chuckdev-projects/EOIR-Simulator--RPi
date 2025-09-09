@@ -44,8 +44,15 @@ sudo i2cdetect -y 1
 # Should show "40"
 
 # Running the simulator
+The main entry point is
+'''bash
+cd src
 python3 eo_ir_ptz_viewer.py
 
+This script launches the EO/IR Simulator with:
+Live video feed (Picamera2)
+PTZ control (keyboard arrows or WASD keys)
+HUD overlays (crosshair, grid, range circles, zoom PiP)
 # Controls
 Controls
 Arrows / W, A, S, D → Pan/Tilt
