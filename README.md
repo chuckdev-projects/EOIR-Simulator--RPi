@@ -17,19 +17,6 @@ Features:
   - Picture-in-picture (PiP) zoom box
 - Modular code (`src/` folder) for clean separation of **camera driver, PTZ control, UI overlays, and main app**.
 
-# Project Structure
-EOIR-Simulator--RPi/
-│
-├── src/
-│ ├── camera_driver.py # Handles PiCamera2 video feed
-│ ├── ptz_control.py # Controls servos via I²C
-│ ├── menu_ui.py # Overlays: HUD, crosshair, grid, range circles, zoom PiP
-│ └── eo_ir_ptz_viewer.py # Main entry point (demo app)
-│
-├── docs/ # (optional) Screenshots, diagrams
-└── README.md
-
-
 ---
 
 #  Hardware Requirements
